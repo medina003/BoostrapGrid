@@ -1,0 +1,40 @@
+.m_navbar,.m_footer{
+    width: 100%;
+    min-height: 70px;
+    background-color: blueviolet ;
+    float: left;
+}
+.m_footer{
+    margin-top: 15px;
+}
+.m_navbar{
+    margin-bottom: 15px;
+}
+.m_nav{
+    width: 100%;
+    min-height: 470px;
+    background-color: violet ;
+    float: left;
+}
+.m_content{
+    width: 100%;
+    min-height: 470px;
+    background-color: lightslategray ;
+    float: left;
+}
+.m_side{
+    width: 100%;
+    min-height: 470px;
+    background-color: violet ;
+    float: left;
+}
+
+@media only screen and (max-width: 768px){
+    .m_nav, .m_content, .m_side{
+        min-height: 150px;
+    }
+
+    .m_content{
+        margin: 15px 0;
+    }
+}
